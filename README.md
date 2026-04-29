@@ -117,11 +117,6 @@ Um sistema puramente em terminal não simula a realidade do mercado atual para s
 > [!NOTE]
 > Grave um vídeo de até 3 minutos ou crie GIFs demonstrando o Cadastro, Login e Criação de Reserva, e coloque o link aqui (substituindo esta nota).
 
-## 👥 Integrantes do Grupo
-- Eduardo Rodrigues (RM XXXX)
-- (Adicione o nome dos outros membros)
-
-## 🔗 Links (Miro, repositório, vídeo)
-- **Repositório GitHub**: *(Insira a URL)*
-- **Board do Miro**: *(Insira a URL)*
-- **Vídeo de Demonstração**: *(Insira a URL)*
+## 🔗 Links
+- **Repositório GitHub**: https://github.com/lazuli-fiap/checkpoint-engenharia-software
+- **Board do Miro**: https://miro.com/app/board/uXjVGpcDQsA=/
