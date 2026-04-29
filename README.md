@@ -1,10 +1,10 @@
-# 🚀 LabBooker
+# 🚀 LabSpark
 
 ## 📌 Descrição do Problema
 Ambientes acadêmicos sofrem com a falta de organização no uso de laboratórios. Professores e alunos muitas vezes enfrentam conflitos de horários, chegando a um laboratório e descobrindo que ele já está ocupado. O projeto inicial (Checkpoint 1) abordou isso de forma básica no terminal, sem salvamento real dos dados, o que limitava a usabilidade do sistema.
 
 ## 💡 Solução Proposta
-O LabBooker é um sistema web responsivo e amigável que permite o cadastro de usuários, visualização de laboratórios disponíveis e o agendamento de reservas em horários específicos. Ele soluciona os conflitos checando automaticamente se o horário solicitado já está em uso, proporcionando um ambiente digital para garantir o recurso laboratorial para os alunos e professores.
+O LabSpark é um sistema web responsivo e amigável que permite o cadastro de usuários, visualização de laboratórios disponíveis e o agendamento de reservas em horários específicos. Ele soluciona os conflitos checando automaticamente se o horário solicitado já está em uso, proporcionando um ambiente digital para garantir o recurso laboratorial para os alunos e professores.
 
 ## 🆕 Evoluções do Checkpoint 1 para o Checkpoint 2
 - **Interface Gráfica Web**: Substituição da interface CLI (terminal) por uma interface web completa (HTML, CSS Glassmorphism).
