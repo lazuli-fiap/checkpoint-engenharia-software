@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div>
+    <h2 style="text-align: center;">Suas Reservas</h2>
+    <p style="text-align: center;">Abaixo estão as reservas vinculadas à sua conta.</p>
+
+    <div class="glass-card" style="margin-top: 2rem;">
+        {% if reservas %}
+            <ul>
+            {% for r in reservas %}
+                <li style="display: flex; justify-content: space-between; align-items: center;">
+                    <div>
+                        <strong>{{ r.nome_lab }}</strong> <br>
+                        <span style="font-size: 0.9rem; color: #cbd5e1;">Data/Hora: {{ r.data_hora }}</span>
+                    </div>
+                    <!-- Permite cancelar a reserva -->
+                    <form method="POST" action="{{ url_for('cancelar_reserva', reserva_id=r.id) }}" style="margin:0;">
+                        <button type="submit" class="btn btn-danger" style="padding: 0.4rem 0.8rem; font-size: 0.8rem;">Cancelar</button>
+                    </form>
+                </li>
+            {% endfor %}
+            </ul>
+        {% else %}
+            <p style="text-align: center;">Você não tem nenhuma reserva agendada.</p>
+        {% endif %}
+    </div>
+</div>
+{% endblock %}
