@@ -1,5 +1,15 @@
 # 🚀 LabSpark
 
+## 👥 Equipe
+
+| Nome | RM |
+|---|---|
+| Ana Clara Silveira Salvatico | 555389 |
+| Eduardo Rodrigues Fernandes | 557219 |
+| Emily Pereira Ribeiro | 554704 |
+| Fernanda Pereira Molina Teixeira | 552587 |
+| Vinicius Eiki Franca | 555150 |
+
 ## 📌 Descrição do Problema
 Ambientes acadêmicos sofrem com a falta de organização no uso de laboratórios. Professores e alunos muitas vezes enfrentam conflitos de horários, chegando a um laboratório e descobrindo que ele já está ocupado. O projeto inicial (Checkpoint 1) abordou isso de forma básica no terminal, sem salvamento real dos dados, o que limitava a usabilidade do sistema.
 
